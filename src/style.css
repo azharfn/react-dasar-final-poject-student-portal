@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://d3g5ywftkpzr0e.cloudfront.net/wp-content/uploads/2019/07/17111443/Ruang-Guru-Ulang-Tahun-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home-item-a h1,
+.home-item-a h5,
+.home-item-b h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.home-item-a h1 {
+    color: rgb(19, 113, 255);
+    font-size: 3rem;
+}
+.home-item-a h5{
+    color: rgb(205, 205, 205);
+    font-size: 1.5rem;
+}
+.home-item-b {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-item-b h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.btn-all {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-all:hover {
+    background-color: #0056b3;
+}
+
+.btn-all a {
+    color: #fff;
+    text-decoration: none;
+}

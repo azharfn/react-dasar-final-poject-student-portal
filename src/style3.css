@@ -1,0 +1,64 @@
+.student-data {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th {
+    background-color: #007bff;
+    color: #fffefe;
+    padding: 0.5rem;
+}
+
+td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-data-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-data-row:hover {
+    background-color: #e8e8e8;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c82333;
+}
